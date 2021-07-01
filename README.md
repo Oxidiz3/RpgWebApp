@@ -2,7 +2,7 @@
 I created RpgWebApp to learn more about web apis, and to understand the difference between GET and POST
 This app will allow you to create a character using some basic stats and then stores them in a database.
 
-**To Run**
+## To Run
 In the first mysite folder run "python manage.py runserver"
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
