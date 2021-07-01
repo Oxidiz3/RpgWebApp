@@ -5,8 +5,8 @@ This app will allow you to create a character using some basic stats and then st
 ## To Run
 In the first mysite folder run "python manage.py runserver"
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
-[Software Demo Video](http://youtube.link.goes.here)
+
+[Software Demo Video](https://youtu.be/P5o78t6bVRo)
 
 # Web Pages
 * I created an index page to help you find your way in the app.
