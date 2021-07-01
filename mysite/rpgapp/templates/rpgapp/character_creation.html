@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Character Creation</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <style>
+    body {
+      background-color: lightblue;
+    }
+
+    h1 {
+      color: black;
+      text-align: center;
+    }
+
+    p {
+      font-family: verdana;
+      font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Character Creation</h1>
+    <form action="" method="post">
+        <a href="/rpgapp">Back</a>
+        <br/>
+        {% csrf_token %}
+        {{form.as_p}}
+        <!-- <label for="name">Name </label>
+        <input id= "name" type="text" name="name" value="">
+        <br/>
+        <label for="stamina">Stamina</label>
+        <input id="stamina" type="integer" name="stamina" value="6">
+        <br/>
+        <label for="endurance">Endurance </label>
+        <input id= "endurance" type="integer" name="endurance" value="6">
+        <br/>
+        <label for="charisma">Charisma</label>
+        <input id= "charisma" type="integer" name="charisma" value="6">
+        <br/>
+        <label for="intelligence">Intelligence</label>
+        <input id= "intelligence" type="integer" name="intelligence" value="6">
+        <br/>
+        <label for="agility">Agility</label>
+        <input id= "agility" type="integer" name="agility" value="6">
+        <br/>
+        <label for="luck">Luck </label>
+        <input id= "Luck" type="integer" name="Luck" value="6"> -->
+        <input type="submit" value="OK">
+    </form>
+</body>
+</html>

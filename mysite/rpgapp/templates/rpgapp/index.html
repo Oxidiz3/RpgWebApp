@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Index</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+</head>
+<body>
+  <h1>This is the index!</h1>
+    {% if latest_character_list%}
+      <ul>
+      {% for character in latest_character_list%}
+          <li><a href="/rpgapp/{{ character.id }}/">{{ character.name}}</a></li>
+      {% endfor %}
+      </ul>
+    {% else %}
+        <p>No characters are available.</p>
+    {% endif %}
+
+  <a href="character_creation">Character Creation</a>
+</body>
+</html>
